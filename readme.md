@@ -43,6 +43,8 @@ Then change the version specification for lock-laravel within the `require` bloc
 ```bash
 "beatswitch/lock-laravel": "dev-master",
 ```
+Eventually run `composer update` command in your terminal.
+Now you have Lock-laravel in your project that work well with laravel 5.2
 
 Register the service provider in your `app.php` config file.
 
