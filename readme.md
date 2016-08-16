@@ -1,5 +1,5 @@
 # Lock - Laravel 5 Driver
-###Updated For Laravel 5.2(See Installation Guide)
+###Updated For Laravel 5.2[(See Installation Guide)](#installation)
 
 [![Build Status](https://img.shields.io/travis/BeatSwitch/lock-laravel/master.svg?style=flat-square)](https://travis-ci.org/BeatSwitch/lock-laravel)
 [![Code Climate](https://codeclimate.com/github/BeatSwitch/lock-laravel/badges/gpa.svg)](https://codeclimate.com/github/BeatSwitch/lock-laravel)
@@ -7,10 +7,6 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](license.md)
 [![Packagist Version](https://img.shields.io/packagist/v/beatswitch/lock-laravel.svg?style=flat-square)](https://packagist.org/packages/beatswitch/lock-laravel)
 [![Total Downloads](https://img.shields.io/packagist/dt/beatswitch/lock-laravel.svg?style=flat-square)](https://packagist.org/packages/beatswitch/lock-laravel)
-
-> I'm sad to say that Lock is currently not maintained. I won't be able to offer support or accept new contributions for the current time being. Other priorities are keeping me from putting the work into Lock that it deserves. Eventually I'll try to pick up work again but unfortunately I cannot say when. My thanks goes out to all the contributors and users.
->
-> -- Dries
 
 This package is a Laravel 5 driver for [Lock](https://github.com/BeatSwitch/lock). Check the documentation of Lock for more info. It requires PHP 5.5.9+.
 
