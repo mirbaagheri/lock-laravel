@@ -1,4 +1,5 @@
 # Lock - Laravel 5 Driver
+###Updated For Laravel 5.2(See Installation Guide)
 
 [![Build Status](https://img.shields.io/travis/BeatSwitch/lock-laravel/master.svg?style=flat-square)](https://travis-ci.org/BeatSwitch/lock-laravel)
 [![Code Climate](https://codeclimate.com/github/BeatSwitch/lock-laravel/badges/gpa.svg)](https://codeclimate.com/github/BeatSwitch/lock-laravel)
@@ -15,7 +16,7 @@ This package is a Laravel 5 driver for [Lock](https://github.com/BeatSwitch/lock
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Installation Guid](#installation)
 - [Usage](#usage)
     - [Setting roles and aliases](#setting-roles-and-aliases)
     - [Setting permissions with the array driver](#setting-permissions-with-the-array-driver)
@@ -24,15 +25,23 @@ This package is a Laravel 5 driver for [Lock](https://github.com/BeatSwitch/lock
     - [Using dependency injection](#using-dependency-injection)
 - [Maintainer](#maintainer)
 - [Contributing](#contributing)
-- [Changelog](#changelog)
 - [License](#license)
 
 ## Installation
 
-Install this package through Composer.
+ Add a repositories block in your composer.json with the url to this repo.
 
 ```bash
-$ composer require beatswitch/lock-laravel
+"repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/mostafamiri65/lock-laravel"
+    }
+  ]
+```
+Then change the version specification for lock-laravel within the `require` block to `dev-master`
+```bash
+"beatswitch/lock-laravel": "dev-master",
 ```
 
 Register the service provider in your `app.php` config file.
@@ -190,16 +199,12 @@ class UserManagementController extends BaseController
 
 > Lock is currently unmaintained.
 
-This package is currently maintained by [Dries Vints](https://github.com/driesvints).  
-If you have any questions please don't hesitate to [ask them in an issue](https://github.com/BeatSwitch/lock-laravel/issues/new).
+This package is currently maintained by [Dries Vints](https://github.com/driesvints). So updated for using in laravel 5.2 by [Sayed](https://github.com/mostafamiri65) 
+If you have any questions please don't hesitate to [ask them in an issue](https://github.com/mostafamiri65/lock-laravel/issues/new).
 
 ## Contributing
 
 Please see [the contributing file](contributing.md) for details.
-
-## Changelog
-
-You can see a list of changes for each release in [the changelog file](changelog.md).
 
 ## License
 
